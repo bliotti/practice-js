@@ -15,7 +15,7 @@ const minimumSwaps = arr => {
 		}
 		let cycle_size = 0
 		let j = i
-		j
+
 		while (!vis[j]) {
 			vis[j] = true
 			j = arrWithIndex[j][0]
